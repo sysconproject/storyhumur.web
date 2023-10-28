@@ -1,0 +1,346 @@
+* {
+    font-family: 'Urbanist', sans-serif;
+}
+
+:root {
+    /*Scroll Bar Color*/
+    --scroll-bar-color: #C5CADF;
+    --scroll-thumb-color: #70768A;
+    --scroll-thumb-hover-color: #454F6B;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: var(--scroll-bar-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--scroll-thumb-color);
+    border-radius: 2em;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--scroll-thumb-hover-color);
+}
+
+.nav-logo {
+    width: 120px;
+    height: 70px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    border-radius: 20px;
+}
+
+.nav-font {
+    font-family: 'Lato', sans-serif !important;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link {
+    transition: background-color 0.3s, color 0.3s, padding 0.3s;
+    padding: 5px 20px;
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+    color: #fff !important;
+    background-color: #000;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+.container-top-space {
+    margin-top: 10%;
+}
+
+.banner-header-text {
+    font-size: 4rem;
+    margin-bottom: 0;
+    font-weight: 900;
+    line-height: 65px;
+    color: #000;
+}
+
+.home-img {
+    border-radius: 20px;
+}
+
+.B2B_bg {
+    background-color: #000;
+    border-radius: 20px;
+    margin-top: 15%;
+}
+
+.header-para {
+    color: #000 !important;
+    font-size: 1.3rem !important;
+}
+
+.banner-text {
+    font-size: 52px;
+}
+
+
+/* About Us  */
+
+.about-us {
+    background-color: #191E28;
+    border-radius: 15px;
+    padding: 5% 10% !important;
+}
+
+.about-us h5 {
+    font-size: 2.4rem !important;
+}
+
+.about-us hr {
+    border: 1px solid white;
+    opacity: 1;
+}
+
+.about-us .fonts-section1 {
+    font-size: 1.5rem !important;
+}
+
+
+/* Featured Work */
+
+.featured-work h5 {
+    font-size: 2rem;
+    font-weight: bolder !important;
+}
+
+.featured-work-img {
+    border-radius: 15px;
+}
+
+.featured-work-text {
+    font-weight: 600 !important;
+}
+
+
+/* B2B and B2C Videos */
+
+.B2B-text {
+    font-size: 17px;
+}
+
+
+/* What they say about us */
+
+.about-us-slider h5 {
+    font-size: 2.5rem !important;
+    font-weight: 900 !important;
+}
+
+.about-us-slider hr {
+    opacity: .5;
+}
+
+.about-us-slider p {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.arrow-bg {
+    background-color: #191E28 !important;
+    border: none !important;
+    padding: 10px 15px !important;
+}
+
+#comment {
+    height: 80px !important;
+}
+
+
+/* What they say about us */
+
+.social-text {
+    font-size: 30px !important;
+    font-weight: 900 !important;
+}
+
+.insta {
+    background: linear-gradient(to right, #FF312C, #FFB131);
+}
+
+
+/* Contact Us */
+
+.contact p {
+    color: black;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Urbanist', sans-serif;
+    border: none;
+}
+
+.contactform .contactform-field input {
+    padding: 50px !important;
+    border: none;
+}
+
+.contact-textarea {
+    border-radius: 15px;
+    border: none;
+}
+
+.contact-gradient {
+    border: none;
+    border-radius: 10px;
+    background-color: #E9F0FE;
+}
+
+#dropdown1 option {
+    border-radius: 10px;
+    background: #007BFF;
+    color: white;
+    border: none;
+}
+
+.btn-btnsubmit {
+    align-items: end;
+}
+
+.footer-head {
+    font-weight: 900 !important;
+}
+
+.footer-para {
+    font-weight: 500 !important;
+}
+
+::placeholder {
+    color: black;
+    opacity: 1;
+}
+
+.contact.dropdown {
+    background-color: #2061F2;
+}
+
+.blue-bg {
+    background-color: #2061F2;
+    color: white;
+}
+
+
+/* Contact Us */
+
+.work ul li {
+    display: inline-block;
+}
+
+.work ul li p {
+    display: inline-block;
+    padding: 8px 15px;
+}
+
+.work ul li p:hover {
+    display: inline-block;
+    color: #fff !important;
+    background-color: #000;
+    border-radius: 15px;
+    padding: 8px 15px;
+}
+
+
+/* Got an Idea */
+
+.got_an_idea {
+    margin-top: 7%;
+    margin-bottom: 7%;
+    border-radius: 15px;
+}
+
+
+/* Service */
+
+.contact p {
+    color: black;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Urbanist', sans-serif;
+    border: none;
+}
+
+.contactform .contactform-field input {
+    padding: 50px !important;
+    border: none;
+}
+
+.contact-textarea {
+    border-radius: 15px;
+    border: none;
+}
+
+.contact-gradient {
+    border: none;
+    border-radius: 10px;
+    background-color: #E9F0FE;
+}
+
+.btn-btnsubmit {
+    align-items: end;
+}
+
+.footer-head {
+    font-family: 'Urbanist', sans-serif !important;
+}
+
+.footer-para {
+    font-family: 'Urbanist', sans-serif !important;
+    font-weight: 500 !important;
+}
+
+::placeholder {
+    color: black;
+    opacity: 1;
+}
+
+.contact.dropdown {
+    background-color: #2061F2;
+}
+
+.blue-bg {
+    background-color: #2061F2;
+    color: white;
+}
+
+.service s {
+    color: black;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Urbanist', sans-serif !important;
+    border: none;
+}
+
+.service-gradient {
+    border: none;
+    border-radius: 15px;
+    background-color: #E9F0FE;
+}
+
+.container-width {
+    width: 30% !important;
+}
+
+.service-bg {
+    border: none;
+    border-radius: 20px;
+}
+
+.service_1 p {
+    color: black;
+    font-family: 'Urbanist', sans-serif;
+    border: none;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
